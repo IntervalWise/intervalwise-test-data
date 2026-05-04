@@ -20,7 +20,7 @@ buildings:
     comstock_file: comstock_raw/secondary_school_zone4c.csv
     comstock_sqft: 77940056
     demo_sqft: 65000
-    cooling_dominated: false
+    cooling_dominated: true
     vocational: false
 
   health_sciences:
@@ -28,7 +28,7 @@ buildings:
     comstock_file: comstock_raw/primary_school_zone4c.csv
     comstock_sqft: 149974818
     demo_sqft: 38000
-    cooling_dominated: false
+    cooling_dominated: true
     vocational: false
 
   regional_skills:
@@ -39,7 +39,7 @@ buildings:
     cooling_dominated: true
     vocational: true
 
-  electro_mechanical:
+  electromech_tech:
     name: "Electro-Mechanical Tech"
     comstock_file: comstock_raw/secondary_school_zone4c.csv
     comstock_sqft: 77940056
