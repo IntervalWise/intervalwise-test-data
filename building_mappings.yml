@@ -1,0 +1,64 @@
+buildings:
+  center_building:
+    name: "Center Building"
+    comstock_file: comstock_raw/primary_school_zone4c.csv
+    comstock_sqft: 149974818
+    demo_sqft: 130000
+    cooling_dominated: true
+    vocational: false
+
+  administrative:
+    name: "Administrative"
+    comstock_file: comstock_raw/medium_office_zone4c.csv
+    comstock_sqft: 140295418
+    demo_sqft: 45000
+    cooling_dominated: false
+    vocational: false
+
+  science_hall:
+    name: "Science Hall"
+    comstock_file: comstock_raw/secondary_school_zone4c.csv
+    comstock_sqft: 77940056
+    demo_sqft: 65000
+    cooling_dominated: false
+    vocational: false
+
+  health_sciences:
+    name: "Health Sciences"
+    comstock_file: comstock_raw/primary_school_zone4c.csv
+    comstock_sqft: 149974818
+    demo_sqft: 38000
+    cooling_dominated: false
+    vocational: false
+
+  regional_skills:
+    name: "Regional Skills Center"
+    comstock_file: comstock_raw/secondary_school_zone4c.csv
+    comstock_sqft: 77940056
+    demo_sqft: 52000
+    cooling_dominated: true
+    vocational: true
+
+  electro_mechanical:
+    name: "Electro-Mechanical Tech"
+    comstock_file: comstock_raw/secondary_school_zone4c.csv
+    comstock_sqft: 77940056
+    demo_sqft: 41000
+    cooling_dominated: false
+    vocational: true
+
+  hood_river_main:
+    name: "Hood River Indian Creek Campus - Main"
+    comstock_file: comstock_raw/small_office_zone4c.csv
+    comstock_sqft: 132124181
+    demo_sqft: 28000
+    cooling_dominated: false
+    vocational: false
+
+  student_housing:
+    name: "Student Housing"
+    comstock_file: comstock_raw/small_office_zone4c.csv
+    comstock_sqft: 132124181
+    demo_sqft: 35000
+    cooling_dominated: false
+    vocational: false
