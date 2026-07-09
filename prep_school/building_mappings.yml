@@ -1,0 +1,93 @@
+# Alder Point Preparatory School (Demo) — feature 035
+# ComStock shape files are shared at the repo root (comstock_raw/, zone4c marine).
+# base_load_kwh: constant kWh per 15-min interval for always-on equipment
+# (natatorium circulation/heat, dorm overnight base, kitchen refrigeration).
+buildings:
+  founders_hall:
+    name: "Founders Hall"
+    comstock_file: comstock_raw/secondary_school_zone4c.csv
+    comstock_sqft: 113013081
+    demo_sqft: 30000
+    cooling_dominated: true
+    vocational: false
+    electric_heat: true
+
+  science_center:
+    name: "Science Center"
+    comstock_file: comstock_raw/secondary_school_zone4c.csv
+    comstock_sqft: 113013081
+    demo_sqft: 22000
+    cooling_dominated: true
+    vocational: false
+
+  lower_school_hall:
+    name: "Lower School Hall"
+    comstock_file: comstock_raw/primary_school_zone4c.csv
+    comstock_sqft: 217463486
+    demo_sqft: 20000
+    cooling_dominated: true
+    vocational: false
+    electric_heat: true
+
+  humanities_wing:
+    name: "Humanities Wing"
+    comstock_file: comstock_raw/primary_school_zone4c.csv
+    comstock_sqft: 217463486
+    demo_sqft: 16000
+    cooling_dominated: false
+    vocational: false
+
+  gymnasium_natatorium:
+    name: "Gymnasium & Natatorium"
+    comstock_file: comstock_raw/secondary_school_zone4c.csv
+    comstock_sqft: 113013081
+    demo_sqft: 24000
+    cooling_dominated: false
+    vocational: false
+    base_load_kwh: 6.5
+    electric_heat: true
+
+  dormitory_north:
+    name: "North Dormitory"
+    comstock_file: comstock_raw/small_office_zone4c.csv
+    comstock_sqft: 191580062
+    demo_sqft: 14000
+    cooling_dominated: false
+    vocational: false
+    base_load_kwh: 2.5
+    electric_heat: true
+
+  dormitory_south:
+    name: "South Dormitory"
+    comstock_file: comstock_raw/small_office_zone4c.csv
+    comstock_sqft: 191580062
+    demo_sqft: 14000
+    cooling_dominated: false
+    vocational: false
+    base_load_kwh: 2.5
+    electric_heat: true
+
+  dining_commons:
+    name: "Dining Commons"
+    comstock_file: comstock_raw/medium_office_zone4c.csv
+    comstock_sqft: 203428356
+    demo_sqft: 10000
+    cooling_dominated: false
+    vocational: false
+    base_load_kwh: 3.0
+
+  library:
+    name: "Hearst Library"
+    comstock_file: comstock_raw/medium_office_zone4c.csv
+    comstock_sqft: 203428356
+    demo_sqft: 12000
+    cooling_dominated: true
+    vocational: false
+
+  arts_center:
+    name: "Arts Center"
+    comstock_file: comstock_raw/medium_office_zone4c.csv
+    comstock_sqft: 203428356
+    demo_sqft: 12000
+    cooling_dominated: false
+    vocational: false
